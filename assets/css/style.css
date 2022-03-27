@@ -62,7 +62,7 @@
 @media (min-width: 1200px) {
   /* - Counter - general - */
   .counter {
-    min-width: 40%;
+    min-width: 35%;
     min-height: 75%;
   }
 
@@ -251,7 +251,7 @@ button {
 @media (min-width: 1200px) {
   /* - Counter - general - */
   .counter {
-    min-width: 40%;
+    min-width: 35%;
     min-height: 75%;
   }
 
