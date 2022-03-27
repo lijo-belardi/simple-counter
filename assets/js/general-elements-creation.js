@@ -1,6 +1,6 @@
 const body = document.body
 
-// funzione per creare gli elementi della pagina
+// Function for create general elements
 function createGeneralElement(tagHtml, className, content) {
     const newElement = document.createElement(tagHtml)
     newElement.innerHTML = content
@@ -9,5 +9,5 @@ function createGeneralElement(tagHtml, className, content) {
     body.appendChild(newElement)
 }
 
-// Elementi generati
+// Elements generated
 createGeneralElement('div', 'counter','')
