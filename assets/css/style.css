@@ -1,3 +1,79 @@
+/* ------- smaller phone  ------- */
+@media (min-width: 320px) {
+  /* - Counter - general - */
+  .counter {
+    max-width: 73%;
+  }
+
+  /* - Counter - button's - */
+  button {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+/* ------- small devices and most phones  ------- */
+@media (min-width: 480px) {
+  /* - Counter - general - */
+  .counter {
+    min-width: 65%;
+    max-width: 70%;
+  }
+
+  /* - Counter - button's - */
+  button {
+    height: 4rem;
+    width: 4rem;
+    font-size: 1rem;
+  }
+
+  /* - Counter - name - */
+  .counter-name-container {
+    font-size: 1rem;
+  }
+}
+/* ------- most tables  ------- */
+@media (min-width: 768px) {
+  /* - Counter - general - */
+  .counter {
+    min-width: 60%;
+    max-width: 65%;
+  }
+
+  /* - Counter - button's - */
+  button {
+    height: 4.8rem;
+    width: 6rem;
+    font-size: 1.2rem;
+  }
+
+  /* - Counter - name - */
+}
+/* ------- smaller desktop  ------- */
+@media (min-width: 992px) {
+  /* - Counter - general - */
+  .counter {
+    min-width: 50%;
+  }
+
+  /* - Counter - button's - */
+  /* - Counter - name - */
+}
+/* ------- large devices and wide screens  ------- */
+@media (min-width: 1200px) {
+  /* - Counter - general - */
+  .counter {
+    min-width: 40%;
+    min-height: 75%;
+  }
+
+  /* - Counter - button's - */
+  /* - Counter - name - */
+}
+@media (min-width: 1400px) {
+  /* - Counter - general - */
+  /* - Counter - button's - */
+  /* - Counter - name - */
+}
 /* ------- General style ------- */
 *,
 *::before,
@@ -43,7 +119,7 @@ body {
   background: #393441;
   color: #FAF8FF;
   width: 80%;
-  height: 25%;
+  height: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,8 +138,8 @@ body {
 }
 
 button {
-  height: 3.25rem;
-  width: 3.25rem;
+  height: 3rem;
+  width: 3rem;
   background: #393441;
   color: #FAF8FF;
   border: none;
@@ -106,7 +182,86 @@ button {
 
 /* ------- Counter - name's container ------- */
 .counter-name-container {
-  font-size: 1rem;
+  color: #393441;
+  font-size: 0.75rem;
+}
+
+/* ------- Mediaquery ------- */
+/* ------- smaller phone  ------- */
+@media (min-width: 320px) {
+  /* - Counter - general - */
+  .counter {
+    max-width: 73%;
+  }
+
+  /* - Counter - button's - */
+  button {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+/* ------- small devices and most phones  ------- */
+@media (min-width: 480px) {
+  /* - Counter - general - */
+  .counter {
+    min-width: 65%;
+    max-width: 70%;
+  }
+
+  /* - Counter - button's - */
+  button {
+    height: 4rem;
+    width: 4rem;
+    font-size: 1rem;
+  }
+
+  /* - Counter - name - */
+  .counter-name-container {
+    font-size: 1rem;
+  }
+}
+/* ------- most tables  ------- */
+@media (min-width: 768px) {
+  /* - Counter - general - */
+  .counter {
+    min-width: 60%;
+    max-width: 65%;
+  }
+
+  /* - Counter - button's - */
+  button {
+    height: 4.8rem;
+    width: 6rem;
+    font-size: 1.2rem;
+  }
+
+  /* - Counter - name - */
+}
+/* ------- smaller desktop  ------- */
+@media (min-width: 992px) {
+  /* - Counter - general - */
+  .counter {
+    min-width: 50%;
+  }
+
+  /* - Counter - button's - */
+  /* - Counter - name - */
+}
+/* ------- large devices and wide screens  ------- */
+@media (min-width: 1200px) {
+  /* - Counter - general - */
+  .counter {
+    min-width: 40%;
+    min-height: 75%;
+  }
+
+  /* - Counter - button's - */
+  /* - Counter - name - */
+}
+@media (min-width: 1400px) {
+  /* - Counter - general - */
+  /* - Counter - button's - */
+  /* - Counter - name - */
 }
 
 /*# sourceMappingURL=style.css.map */
