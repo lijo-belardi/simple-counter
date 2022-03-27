@@ -1,6 +1,10 @@
 @use "../sass/partials" as *;
 
-*, *::before, *::after {
+/* ------- General style ------- */
+
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,6 +26,7 @@ body {
     font-family: $font-family;
 }
 
+/* ------- Counter - general style  ------- */
 .counter {
     min-width: 70%;
     min-height: 70%;
@@ -29,22 +34,31 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.313rem;
 
     div {
         margin: auto;
     }
 }
 
+/* ------- Counter - display number ------- */
+
 .display-number {
     background: $primary-color;
     color: $secondary-color;
     width: 80%;
-    height: 10%;
+    height: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 0.313rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
 }
+
+/* ------- Counter - button's section ------- */
 
 .button-container {
     display: flex;
@@ -52,13 +66,23 @@ body {
     justify-content: space-between;
     width: 80%;
 }
+
 button {
-    height: 80px;
-    width: 80px;
+    height: 3.25rem;
+    width: 3.25rem;
     background: $primary-color;
     color: $secondary-color;
     border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.button-increment {
+    
+}
 
+/* ------- Counter - name's container ------- */
 
+.counter-name-container {
+    font-size: 1rem;
+}
