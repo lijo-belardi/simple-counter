@@ -71,6 +71,39 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.button-increment {
+  transition: 175ms ease-in-out;
+}
+.button-increment:hover {
+  transform: translateY(-2px);
+}
+.button-increment:focus {
+  background-color: #2f2a36;
+  color: #FBBA83;
+}
+
+.button-reset {
+  transition: 175ms ease-in-out;
+}
+.button-reset:hover {
+  transform: translateY(-2px);
+}
+.button-reset:focus {
+  background-color: #2f2a36;
+  color: #FBBA83;
+}
+
+.button-decrement {
+  transition: 175ms ease-in-out;
+}
+.button-decrement:hover {
+  transform: translateY(-2px);
+}
+.button-decrement:focus {
+  background-color: #2f2a36;
+  color: #FBBA83;
+}
+
 /* ------- Counter - name's container ------- */
 .counter-name-container {
   font-size: 1rem;
