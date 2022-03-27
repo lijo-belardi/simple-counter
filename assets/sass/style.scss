@@ -78,9 +78,43 @@ button {
 }
 
 .button-increment {
-    
+    transition: $transition-time ease-in-out;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+
+    &:focus {
+        background-color: $primary-color-inverse;
+        color: $tertiary-color;
+    }
 }
 
+.button-reset {
+    transition: $transition-time ease-in-out;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+
+    &:focus {
+        background-color: $primary-color-inverse;
+        color: $tertiary-color;
+    }
+}
+
+.button-decrement {
+    transition: $transition-time ease-in-out;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+
+    &:focus {
+        background-color: $primary-color-inverse;
+        color: $tertiary-color;
+    }
+}
 /* ------- Counter - name's container ------- */
 
 .counter-name-container {
