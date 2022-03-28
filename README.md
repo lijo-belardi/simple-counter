@@ -1,7 +1,7 @@
 
 # Simple counter
 
-Project realized for the [Start2Impact] (https://www.start2impact.it) "Javascript Basics" course.
+Project realized for the [Start2Impact](https://www.start2impact.it) "Javascript Basics" course.
 
 You can change the value by pressing "-" and "+" buttons and reset the value with the "reset" button.
 
