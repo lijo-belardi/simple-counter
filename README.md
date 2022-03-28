@@ -5,6 +5,10 @@ Project realized for the [Start2Impact](https://www.start2impact.it) "Javascript
 
 You can change the value by pressing "-" and "+" buttons and reset the value with the "reset" button.
 
+## Project Link
+
+[lijo-simple-counter](https://lijo-simple-counter.netlify.app/)
+
 ## Screenshots
 
 ![App Screenshot](/assets/img/screenshot-lijo.simple-counter.png)
@@ -22,9 +26,6 @@ You can change the value by pressing "-" and "+" buttons and reset the value wit
 | Text Color | #FAF8FF |
 
 
-## Project Link
-
-[lijo-simple-counter](https://lijo-simple-counter.netlify.app/)
 
 ## 🔗 Social Links
 
